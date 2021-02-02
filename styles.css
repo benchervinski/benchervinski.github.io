@@ -6,16 +6,21 @@ head{
 	max-width: 100%;
 	margin: auto;
 }
+@font-face{
+	font-family: Trap;
+	src: url('./fonts/Trap-Bold.otf')
+}
 
 body {
   margin: 0;
   padding: 0;
-  src:url('/fonts/MatrixBold.otf');
+/*  src:url('/fonts/MatrixBold.otf');
   src:url('/fonts/l_10646.ttf');
   src:url('/fonts/Avenir.ttc');
   src:url('/fonts/Trap-Black.otf.ttf');
   src:url('/fonts/Glora Bold.ttf');
-  src:url('/fonts/Arial Unicode.ttf');
+  src:url('/fonts/Arial Unicode.ttf');*/
+
   background-image: url('./images/plasticccc_BG-06.png');
   background-attachment: fixed;
   /*background-color: #FFE000;*/
@@ -140,7 +145,7 @@ body {
   	/*max-height:4000px;*/
   	/*background-color: #495DCB;*/
   	background-color: black;
-  	height: 140vh;
+  	height: 150vh;
   	position: relative;
 }
 
@@ -159,11 +164,11 @@ body {
 
 .second_left h1 {
 	/*width: 100%;*/
-  	font-family: Trap-Black;
+  	font-family: Trap;
 	font-weight: 200;
 	font-style: normal;
 	/*font-weight: 500px;*/
-	font-size: 550%;
+	font-size: 5.5em;
 	line-height: 120%;
 	letter-spacing: 0.030em;
 	color: white;
@@ -182,7 +187,7 @@ body {
 	font-family: Avenir;
 	font-style: normal;
 	font-weight: 300;
-	font-size: 28px;
+	font-size: 2em;
 	line-height: 126.9%;
 	letter-spacing: 0.035em;
 	color: white;
@@ -204,7 +209,7 @@ body {
   	font-family: Avenir;
 	font-style: normal;
 	font-weight: 300;
-	font-size: 28px;
+	font-size: 2em;
 	line-height: 126.9%;
 	letter-spacing: 0.035em;
 	color: white;
@@ -214,7 +219,7 @@ body {
 .video {
 	position: absolute;
 	width: 30%;
-	height: 30%; 
+	height: 25%; 
 	margin-left: 9%;
 	margin-top: 4%;
 }
@@ -229,8 +234,8 @@ body {
 	position: relative;
 	flex-direction: column;
   	width: 100%;
-  	min-height: 1200px;
-  	max-height: 1500px;
+  	min-height: 90vh;
+  	/*max-height: 1500px;*/
   	/*background-color: #495DCB;*/
   	background-color: black;
   	/*justify-content: center;*/
@@ -246,10 +251,10 @@ body {
 
 
 .third_headline{
-	font-family: Trap-Black;
+	font-family: Trap;
 	font-weight: 400;
 	font-style: normal;
-	font-size: 74px;
+	font-size: 5.5em;
 	line-height: 165%;
 	letter-spacing: 0.045em;
 	color: #fff600;
@@ -269,7 +274,7 @@ body {
 .fourth{
 	display: flex;
 	flex-direction: column;
-  	min-height: 2400px;
+  	min-height: 210vh;
   	position: relative;
   	/*max-height: 1000px;*/
   	/*background-image: url('./images/bg_3-08.png');*/
@@ -285,10 +290,10 @@ body {
 	top: 14%;
 	left: 12%;
 	margin-bottom: 2px;
-	font-family: Trap-Black;
-	font-weight: 400;
+	font-family: Trap;
+	font-weight: 500;
 	font-style: normal;
-	font-size: 55px;
+	font-size: 4em;
 	color: white;
 	letter-spacing: 0.14em;
 }
@@ -301,10 +306,10 @@ body {
 	max-width: 20%;
 	font-family: avenir;
 	/*font-style: normal;*/
-	font-size: 22px;
+	font-size: 1.8em;
 	color: white;
-	line-height: 30px;
-	letter-spacing: 0.3px;
+	line-height: 1.5em;
+	letter-spacing: 0.0.3em;
 
 }
 
@@ -339,7 +344,7 @@ body {
 	left: 60%;
 	top: 50%;
 	margin-bottom: 2px;
-	font-family: Trap-Black;
+	font-family: Trap;
 	font-weight: 400;
 	font-style: normal;
 	font-size: 40pt;
@@ -354,10 +359,10 @@ body {
 	top: 65%;
 	max-width: 30%;
 	font-family: avenir;
-	font-size: 17pt;
+	font-size: 1.8em;
 	color: white;
-	line-height: 30px;
-	letter-spacing: 0.3px;
+	line-height: 1.5em;
+	letter-spacing: 0.0.3em;
 }
 
 .fourth_poster_2{
@@ -377,7 +382,7 @@ body {
 }
 
 .fifth h1{
-	font-family: Trap-Black;
+	font-family: Trap;
 	font-weight: 400;
 	font-style: normal;
 	font-size: 74px;
