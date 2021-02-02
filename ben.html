@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>july2021</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <!-- <link rel="stylesheet" href="https://use.typekit.net/trh3fxk.css">
+    <link rel="stylesheet" href="https://use.typekit.net/civ6mcf.css">
+    <link rel="stylesheet" href="https://use.typekit.net/kri6yax.css"> -->
+    <link href='https://fonts.googleapis.com/css2?family=Roboto&display=swap' rel='stylesheet' type='text/css'>
+    <script type="text/javascript" src="./js/myscript.js"></script>
+    <script type="text/javascript" src="./js/matter.min.js"></script>
+  </head>
+<body>
+	<!-- <header class="bar">
+		<div class="inner">
+			<p>» Reducing Plastic Waste Reducing Plastic Waste Reducing Plastic Waste Reducing Plastic Waste Reducing Plastic Waste Reducing Plastic Waste Reducing Plastic Waste Reducing Plastic Waste Reducing Plastic Waste Reducing Plastic Waste Reducing Plastic Waste Reducing Plastic Waste Reducing Plastic Waste Reducing Plastic Waste Reducing Plastic Waste «
+			</p>
+		</div>
+	</header> -->
+	<div class='container'>
+
+		<section class='first'>
+			<div class='hashtag'>
+				#plastticfreejuly
+			</div>
+			<img class="plastic_gif" src="images/reduce_plastic.gif">
+			
+			<img id="arrow_left" class="arrow" src="images/hetzim_2-05.png">
+		
+			<img id="arrow_right" class="arrow" src="images/hetzim_2-05.png">
+	
+		</section>
+		<div class='moti'></div>
+		<section class='second'>
+			<div class="second_left">
+				<h1>
+					You’ve probably heard that in 2050 there will be more plastic in the oceans than fish.
+				</h1>
+			</div>
+			<div class="separator"></div>
+			<div class="second_right">
+				<p>
+					If this is not scary enough, I don’t know what is (well, climate change, but those go hand in hand).
+					Producing plastic involves fossil fuels and leaves a giant carbon footprint. Plastic bottles followed by food wrappers, and cigarette butts are the top contributors to freshwater plastic pollution.
+					The thing about plastic is that only as little as 10–15% of it is being recycled globally right now. Single use plastic bottles can be recycled only once and some of them (non-transparent ones) are difficult, if not impossible, to reuse. Also, it takes them 450 years to decompose. As a result of not being recycled, plastic finds its way to landfills where it lives forever and to our rivers and oceans (8 million pieces every single day) where it poses a real threat to various marine life species, killing more than 1 million of them every year. Here is a shocking video of birds found on the Lord Howe Island near Australia. Cause of their death? They were filled with plastic which perforated their gut and it’s not only plastic litter and marine debris that ends up in our oceans. Microplastics washed out from clothes made of synthetic fabrics such as viscose are consumed by fish and make their way back to our food chain. Result: we eat plastic. In fact, each of us eats 70,000 microplastics every year. (the potential risk on our health hasn’t been fully identified yet, but it doesn’t mean it’s not there)
+				</p>
+			</div>
+		</section>
+		<div class='moti'></div>
+		<section class="third">
+			<div class="third_headline">
+				<h1>
+					If you’re even as half preoccupied by this as I am, read on.
+				</h1>
+			</div>
+
+			<img id="arrow_single" class="arrow" src="images/plasticccc[Recovered]-07.png">
+
+		</section>
+		<div class='moti'></div>
+		<section class="fourth">
+			<div class='fourth_1'>
+				<h1>
+					So, what can you do to help prevent this?
+				</h1>
+			</div>
+			<div class='fourth_2'>
+				<h2>
+					Recycle? No question about it! But most importantly — REDUCE plastic. Wanting to educate myself on ways to reduce plastic, I joined the #plasticfreejuly challenge. Day by day I faced new challenges and discovered yet another area of my life which needed a mindset change.
+				</h2>
+			</div>
+			<div class='fourth_3'>
+				<h1>
+					Am I making a difference?
+				</h1>
+			</div>
+			<div class='fourth_4'>
+				<h2>
+					When you start reducing plastic, you start questioning choices of your everyday life and sometimes it may all seem too daunting or too small to matter. Questions such as: “Am I really making a difference?” can take you down a dangerous spiral of thoughts which may result in inertia: doing nothing.
+
+					Knowing that some of the biggest plastic polluting countries are China, US, Germany, Brasil, and that The East Asia and Pacific region dominates global mismanaged plastic waste (60%), I repeatedly asked myself: does it make a difference to drive change outside of those countries?
+					Does it make a difference to act single-handedly when this is a serious global challenge which needs to be addressed by country leaders and result in new policies?
+					I still think it does. Here’s why.
+
+					Changing even one habit already makes a difference and minimizes demand for certain products. Asking challenging questions to brands (often located in the polluting countries) and talking about this topic sparks conversation and awareness amongst people worldwide. It makes companies more transparent about their processes and supply chains as well as creates demand for new, eco-conscious and sustainable businesses forcing traditional brands to adapt.
+				</h2>
+			</div>
+			<!-- <img class="bg_3" src="./images/bg_3-08.png">
+ -->
+		</section>
+		<div class='moti'></div>
+		<section class="fifth">
+			<div class='video'>
+				<iframe src="https://www.youtube.com/embed/ju_2NuK5O-E" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+			</div>
+		</section>
+	</div>
+	<script type="text/javascript">
+		function getRandomInt(min, max) {
+    return Math.floor(Math.random() * max) + min;
+}
+
+let pageHeight = document.documentElement.clientHeight;
+let pageWidth = document.documentElement.clientWidth;
+let engine = Matter.Engine.create();
+
+let render = Matter.Render.create({
+    element: document.body,
+    engine: engine,
+    options: {
+        height: pageHeight,
+        width: pageWidth,
+        hasBounds: true,
+        wireframes: false,
+        background: '#5afc03'
+    }
+})
+
+let ground = Matter.Bodies.rectangle(760, pageHeight - 60, pageWidth + 500, 20, {isStatic: true});
+
+let stack = Matter.Composites.stack(450, 100, 6, 6, 0, 0, (x, y) => {
+    let sides = Math.round(Matter.Common.random(2, 8));
+    return Matter.Bodies.polygon(x, y, sides, Matter.Common.random(20, 50), {
+        render: {
+            sprite: {
+                texture: '/Volumes/LaCie/bezalel/D/web/web_design/project_plastic/images/plastic_bottle.png',
+                xScale:0.1,
+                yScale: 0.1
+            }
+        }})
+})
+
+let mouse = Matter.Mouse.create(render.canvas);
+let mouseConstraint = Matter.MouseConstraint.create(engine, {
+    mouse: mouse,
+    constraint: {
+        render: { visible: false }
+    }
+})
+// render.mouse = mouse;
+Matter.World.add(engine.world, mouseConstraint);
+
+
+Matter.World.add(engine.world, [stack, ground, mouseConstraint]);
+Matter.Engine.run(engine);
+Matter.Render.run(render);
+	</script>
+</body>
