@@ -10,12 +10,12 @@ head{
 body {
   margin: 0;
   padding: 0;
-  src:url('./fonts/MatrixBold.otf');
-  src:url('./fonts/l_10646.ttf');
-  src:url('./fonts/Avenir.ttc');
-  src:url('./fonts/Trap-Black.otf.ttf');
-  src:url('./fonts/Glora Bold.ttf');
-  src:url('./fonts/Arial Unicode.ttf');
+  src:url('/fonts/MatrixBold.otf');
+  src:url('/fonts/l_10646.ttf');
+  src:url('/fonts/Avenir.ttc');
+  src:url('/fonts/Trap-Black.otf.ttf');
+  src:url('/fonts/Glora Bold.ttf');
+  src:url('/fonts/Arial Unicode.ttf');
   background-image: url('./images/plasticccc_BG-06.png');
   background-attachment: fixed;
   /*background-color: #FFE000;*/
@@ -41,7 +41,7 @@ body {
 }
 
 .hashtag{
-	z-index: 100;
+	z-index: 99;
 	display: block;
     margin-left: auto;
     margin-right: auto;
@@ -55,6 +55,12 @@ body {
   	border: 3px solid white;
   	padding: 8px;
   	margin-top: 60%;
+}
+
+#bottle_container{
+	position: fixed;
+	align-content: center;
+	z-index: 100;
 }
 
 .hashtag:hover {
@@ -84,6 +90,7 @@ body {
   	justify-content: center;
   	background-color: black;
   	height: 110vh;
+  	position: relative;
 
 }
 
@@ -91,6 +98,40 @@ body {
 	width: 70%;
 	height: 90%;
 }
+
+
+#arrow_right{
+	position: absolute;
+	max-width: 16%;
+  	height: auto;
+  	/*top: 4%;*/
+  	right: 8%;
+}
+
+#arrow_right_2{
+	position: absolute;
+	max-width: 16%;
+  	height: auto;
+  	top: 42%;
+  	right: 8%;
+}
+
+#arrow_left{
+	position: absolute;
+	max-width: 16%;
+  	height: auto;
+  	/*top: 4%;*/
+  	left: 8%;
+}
+
+#arrow_left_2{
+	position: absolute;
+	max-width: 16%;
+  	height: auto;
+  	top: 42%;
+  	left: 8%;
+}
+
 
 .second{
 	display: flex;
@@ -100,38 +141,7 @@ body {
   	/*background-color: #495DCB;*/
   	background-color: black;
   	height: 140vh;
-}
-
-#arrow_right{
-	position: absolute;
-	max-width: 16%;
-  	height: auto;
-  	top: 88%;
-  	right: 8%;
-}
-
-#arrow_right_2{
-	position: absolute;
-	max-width: 16%;
-  	height: auto;
-  	top: 133%;
-  	right: 8%;
-}
-
-#arrow_left{
-	position: absolute;
-	max-width: 16%;
-  	height: auto;
-  	top: 88%;
-  	left: 8%;
-}
-
-#arrow_left_2{
-	position: absolute;
-	max-width: 16%;
-  	height: auto;
-  	top: 133%;
-  	left: 8%;
+  	position: relative;
 }
 
 
