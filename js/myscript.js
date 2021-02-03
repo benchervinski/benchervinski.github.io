@@ -19,7 +19,7 @@ window.onload = function(){
 	  	bottle.src = './images/plastic_bottle.png';
 	  	// bottle.classList.add('random_bottles')
 	  	bottle.style.position = 'absolute';
-	  	bottle.style.width = 320 + 'px';
+	  	bottle.style.width = 14 + 'vw';
 	  	bottle.style.top = getRandomInt(0, 1600) + 'px';
 	  	bottle.style.left = getRandomInt(0, window.innerWidth) + 'px';
 	  	bottle.style.transform = 'rotate(180deg)';
@@ -38,7 +38,7 @@ window.onload = function(){
 	document.addEventListener('scroll', e => {
 
 		var currentMarginTop = 600;
-		var scrollArea = 4200;
+		var scrollArea = 1200;
 
 		var scrollTop = window.pageYOffset || window.scrollTop;
 		var scrollPrecent = scrollTop/scrollArea || 0

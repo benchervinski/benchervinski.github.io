@@ -55,11 +55,11 @@ body {
 	font-style: normal;
 	color: white;
 	text-align: center;
-	font-size: 42px;
-	font-size: 4vw;
+	font-size: 1.8vw;
   	border: 3px solid white;
   	padding: 8px;
-  	margin-top: 60%;
+  	margin-top: 45vh;
+  	position: fixed;
 }
 
 #bottle_container{
@@ -168,7 +168,7 @@ body {
 	font-weight: 200;
 	font-style: normal;
 	/*font-weight: 500px;*/
-	font-size: 5.5em;
+	font-size: 3.5vw;
 	line-height: 120%;
 	letter-spacing: 0.030em;
 	color: white;
@@ -187,7 +187,7 @@ body {
 	font-family: Avenir;
 	font-style: normal;
 	font-weight: 300;
-	font-size: 2em;
+	font-size: 1.3vw;
 	line-height: 126.9%;
 	letter-spacing: 0.035em;
 	color: white;
@@ -209,7 +209,7 @@ body {
   	font-family: Avenir;
 	font-style: normal;
 	font-weight: 300;
-	font-size: 2em;
+	font-size: 1.3vw;
 	line-height: 126.9%;
 	letter-spacing: 0.035em;
 	color: white;
@@ -254,7 +254,7 @@ body {
 	font-family: Trap;
 	font-weight: 400;
 	font-style: normal;
-	font-size: 5.5em;
+	font-size: 3.3vw;
 	line-height: 165%;
 	letter-spacing: 0.045em;
 	color: #fff600;
@@ -359,9 +359,9 @@ body {
 	top: 65%;
 	max-width: 30%;
 	font-family: avenir;
-	font-size: 1.8em;
+	font-size: 1.6em;
 	color: white;
-	line-height: 1.5em;
+	line-height: 1.3em;
 	letter-spacing: 0.0.3em;
 }
 
@@ -395,23 +395,6 @@ body {
 	text-align: left;
 	margin-top: 12%;
 	margin-left: 20%;
-}
-
-
-.hashtag{
-	display: block;
-    margin-left: auto;
-    margin-right: auto;
-	font-family: Avenir;
-	font-weight: 900;
-	font-style: normal;
-	color: white;
-	text-align: center;
-	font-size: 42px;
-  	border: 3px solid white;
-  	padding: 8px;
-  	margin-top: 600px;
-  	position: fixed;
 }
 
 
