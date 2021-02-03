@@ -145,7 +145,7 @@ body {
   	/*max-height:4000px;*/
   	/*background-color: #495DCB;*/
   	background-color: black;
-  	height: 150vh;
+  	height: 180vh;
   	position: relative;
 }
 
@@ -171,19 +171,18 @@ body {
 	font-size: 3.5vw;
 	line-height: 120%;
 	letter-spacing: 0.030em;
-	color: white;
+	color: #fff325;
 	text-shadow: 0px 1px 1px rgba(0, 0, 0, 0.25);
 	max-width: 65%;
 	margin-left: 17%;
-	margin-top: 13%;
-	height: 40%;
+	margin-top: 25%;
 }
 
 .second_left p {
 	position: absolute;
 	width: 35%;
 	margin-left: 8.6%;
-	margin-top: 2%;
+	margin-top: 5%;
 	font-family: Avenir;
 	font-style: normal;
 	font-weight: 300;
@@ -204,7 +203,7 @@ body {
 
 .second_right p {
 	max-width: 60%;
-  	margin-top: 14%;
+  	margin-top: 25%;
   	margin-left: 16%;
   	font-family: Avenir;
 	font-style: normal;
@@ -218,10 +217,10 @@ body {
 
 .video {
 	position: absolute;
-	width: 30%;
-	height: 25%; 
+	width: 34%;
+	height: 20%; 
 	margin-left: 9%;
-	margin-top: 4%;
+	margin-top: 14%;
 }
 
 .video iframe {
@@ -274,7 +273,7 @@ body {
 .fourth{
 	display: flex;
 	flex-direction: column;
-  	min-height: 210vh;
+  	min-height: 230vh;
   	position: relative;
   	/*max-height: 1000px;*/
   	/*background-image: url('./images/bg_3-08.png');*/
@@ -287,7 +286,7 @@ body {
 
 .help_prevent{
 	position: absolute;
-	top: 14%;
+	top: 10%;
 	left: 12%;
 	/*margin-bottom: 2px;*/
 	font-family: Trap;
@@ -301,15 +300,15 @@ body {
 
 .recycle {
 	position: absolute;
-	top: 30%;
+	top: 25%;
 	left: 18%;
 	max-width: 20%;
 	font-family: avenir;
 	/*font-style: normal;*/
 	font-size: 1.2vw;
 	color: white;
-	line-height: 2vw;
-	letter-spacing: 0.0.3vw;
+	line-height: 1.7vw;
+	letter-spacing: 0.0.9vw;
 
 }
 
@@ -330,7 +329,7 @@ body {
 
 .fourth_poster_1{
 	position: absolute;
-	max-width: 30%;
+	max-width: 25%;
 	left: 295px;
 	top: 50%;
 	transform: translateY(0px);
@@ -340,9 +339,9 @@ body {
 
 .make_a_difference {
 	position: absolute;
-	bottom: 10%;
+	/*bottom: 10%;*/
 	left: 58%;
-	top: 46%;
+	top: 34%;
 	/*margin-bottom: 2px;*/
 	font-family: Trap;
 	font-weight: 500;
@@ -356,20 +355,20 @@ body {
 .when_u_start {
 	position: absolute;
 	left: 58%;
-	top: 57%;
+	top: 50%;
 	max-width: 30%;
 	font-family: avenir;
-	font-size: 1vw;
+	font-size: 1.2vw;
 	color: white;
 	line-height: 1.7vw;
-	letter-spacing: 0.0.3vw;
+	letter-spacing: 0.0.9vw;
 }
 
 .fourth_poster_2{
 	position: absolute;
 	max-width: 30%;
 	left: 55%;
-	top: 10%;
+	top: 5%;
 	transform: translateY(0px);
 	animation: float 1s ease-in-out infinite;
 }
