@@ -13,7 +13,7 @@ window.onload = function(){
 	const bottles_containers = document.querySelectorAll('#bottle_container');
 
 	Array.from(bottles_containers).map(container => {
-		new Array(60).fill(1).map(i => {
+		new Array(80).fill(1).map(i => {
 
 		var bottle = document.createElement('img');
 	  	bottle.src = './images/plastic_bottle.png';
