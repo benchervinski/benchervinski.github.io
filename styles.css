@@ -598,6 +598,7 @@ body {
 	margin-left: 1.8vw;
 	margin-top: 3vh;
 	opacity: 100%;
+	min-height: 60%;
 }
 
 /* The Close Button */
