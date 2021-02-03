@@ -145,7 +145,7 @@ body {
   	/*max-height:4000px;*/
   	/*background-color: #495DCB;*/
   	background-color: #4d4af3;
-  	height: 180vh;
+  	height: 176vh;
   	position: relative;
 }
 
@@ -181,7 +181,7 @@ body {
 
 .second_left p {
 	position: absolute;
-	width: 35%;
+	/*width: 50%;*/
 	margin-left: 8.6%;
 	margin-top: 5%;
 	font-family: Avenir;
@@ -197,7 +197,7 @@ body {
 
 
 .separator {
-		border-right: 3px solid white;
+		border-right: 2px solid white;
 		margin-top: 120px;
 		margin-bottom: 80px;
 }
@@ -218,10 +218,10 @@ body {
 
 .video {
 	position: absolute;
-	width: 34%;
+	width: 36%;
 	height: 20%; 
-	margin-left: 9%;
-	margin-top: 14%;
+	margin-left: 8%;
+	margin-top: 10%;
 }
 
 .video iframe {
@@ -590,7 +590,7 @@ body {
 	font-style: normal;
 	font-size: 2.2vw;
 	line-height: 5vh;
-	letter-spacing: 0.1vw;
+	letter-spacing: 0.07vw;
 	color: white;
 	text-shadow: 0px 1px 1px rgba(0, 0, 0, 0.20);
 	max-width: 90%;
