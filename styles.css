@@ -46,7 +46,7 @@ body {
 }
 
 .hashtag{
-	z-index: 99;
+	z-index: 98;
 	display: block;
     margin-left: auto;
     margin-right: auto;
@@ -289,13 +289,13 @@ body {
 	position: absolute;
 	top: 14%;
 	left: 12%;
-	margin-bottom: 2px;
+	/*margin-bottom: 2px;*/
 	font-family: Trap;
 	font-weight: 500;
 	font-style: normal;
-	font-size: 4em;
+	font-size: 2.5vw;
 	color: white;
-	letter-spacing: 0.14em;
+	letter-spacing: 0.14vw;
 }
 
 
@@ -306,10 +306,10 @@ body {
 	max-width: 20%;
 	font-family: avenir;
 	/*font-style: normal;*/
-	font-size: 1.8em;
+	font-size: 1.2vw;
 	color: white;
-	line-height: 1.5em;
-	letter-spacing: 0.0.3em;
+	line-height: 2vw;
+	letter-spacing: 0.0.3vw;
 
 }
 
@@ -341,28 +341,28 @@ body {
 .make_a_difference {
 	position: absolute;
 	bottom: 10%;
-	left: 60%;
-	top: 50%;
-	margin-bottom: 2px;
+	left: 58%;
+	top: 46%;
+	/*margin-bottom: 2px;*/
 	font-family: Trap;
-	font-weight: 400;
+	font-weight: 500;
 	font-style: normal;
-	font-size: 40pt;
+	font-size: 2.5vw;
 	color: white;
-	letter-spacing: 0.14em;
+	letter-spacing: 0.14vw;
 }
 
 
 .when_u_start {
 	position: absolute;
-	left: 57%;
-	top: 65%;
+	left: 58%;
+	top: 57%;
 	max-width: 30%;
 	font-family: avenir;
-	font-size: 1.6em;
+	font-size: 1vw;
 	color: white;
-	line-height: 1.3em;
-	letter-spacing: 0.0.3em;
+	line-height: 1.7vw;
+	letter-spacing: 0.0.3vw;
 }
 
 .fourth_poster_2{
@@ -425,7 +425,7 @@ body {
 .modal {
   display: none; /* Hidden by default */
   position: fixed; /* Stay in place */
-  z-index: 1; /* Sit on top */
+  z-index: 99; /* Sit on top */
   left: 0;
   top: 0;
   width: 100%; /* Full width */
@@ -437,20 +437,38 @@ body {
 
 /* Modal Content/Box */
 .modal-content {
-  background-color: #fefefe;
-  margin: 15% auto; /* 15% from the top and centered */
+  background-color: #8e6abe;
+  margin: 5% auto; /* 15% from the top and centered */
   padding: 20px;
   border: 1px solid #888;
   width: 50%; /* Could be more or less, depending on screen size */
   height: 70%;
+  opacity: 0.8;
+}
+
+.modal-content h1{
+	font-family: Trap;
+	font-weight: 400;
+	font-style: normal;
+	font-size: 2.2vw;
+	line-height: 5vh;
+	letter-spacing: 0.10vw;
+	color: white;
+	text-shadow: 0px 1px 1px rgba(0, 0, 0, 0.25);
+	max-width: 90%;
+	text-align: center;
+	margin-left: 1.8vw;
+	margin-top: 3vh;
+	opacity: 100%;
 }
 
 /* The Close Button */
 .close {
-  color: black;
+  color: white;
   float: right;
-  font-size: 100%;
-  font-weight: bold;
+  font-size: 3vw;
+  font-weight: lighter;
+  margin-right: 0.5vw;
 }
 
 .close:hover,
